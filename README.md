@@ -15,7 +15,7 @@ install -> https://aka.ms/vs/17/release/vs_BuildTools.exe **with the optional bo
 put bat in your **user folder**, run it, it will have a **press any key to continue**, then **ask you if it is your first time** (this is to install requirements and also to skip installing requirements every time you launch)
 
 # Step 4:
-use a **chromium** based browser, my recommendation, use top one because it is the latest -> https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/64bit
+use a **chromium** based browser -> https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/64bit
 
 use for auto updating -> https://github.com/henrypp/chrlauncher
 
