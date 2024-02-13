@@ -6,6 +6,7 @@ acquire bat -> https://github.com/MrFelt/voice-changer/releases
 # Step 2:
 install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
 install -> https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe
+install -> https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
 
 # Step 3:
 put bat in your **user folder**, run it, it will have a **press any key to continue**, then **ask you if it is your first time** (this is to install requirements and also to skip installing requirements every time you launch)
