@@ -1,3 +1,5 @@
+# **IF YOU ARE NOT USING 9xx-40xx NVIDIA, THIS WILL NOT WORK FOR YOU.**
+
 # Step 1:
 acquire bat -> https://github.com/MrFelt/voice-changer/releases
 
