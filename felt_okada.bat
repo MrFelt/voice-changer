@@ -1,9 +1,9 @@
 @echo off
 
 :: Set the name of your virtual environment folder
-set VENV_DIR=%~dp0\venv\
-set SERV_DIR=%~dp0\w-okada_felt\server\
-set REPO_DIR=%~dp0\w-okada_felt\
+set VENV_DIR=%~dp0\voice-changer\venv\
+set SERV_DIR=%~dp0\voice-changer\server\
+set REPO_DIR=%~dp0\voice-changer\
 set REPO_URL=https://github.com/MrFelt/voice-changer
 
 
@@ -44,15 +44,17 @@ if exist %VENV_DIR% (
 
 set /P "Q=Is this your first time running? (y/n): "
 if /I not "%Q%" == "y" goto requirements
+if /I not "%Q%" == "Y" goto requirements
 if /I "%Q%" == "" goto start 
-
-
+if /I "%Q%" == "n" goto start
+if /I "%Q%" == "N" goto start
 
 :requirements
 cd %SERV_DIR%
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 python -m pip install fairseq==0.12.2 pyworld==0.3.4
 python -m pip install -r requirements.txt
-python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
 
 MD model_dir
 
