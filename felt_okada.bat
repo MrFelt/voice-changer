@@ -18,7 +18,7 @@ if exist %REPO_DIR% (
     )
 ) else (
     echo "Directory '%REPO_DIR%' does not exist. Cloning repository..."
-	git clone %REPO_URL% w-okada_felt
+	git clone %REPO_URL% voice-changer
     if %ERRORLEVEL% NEQ 0 (
         pause
     ) 
@@ -43,11 +43,11 @@ if exist %VENV_DIR% (
 )
 
 set /P "Q=Is this your first time running? (y/n): "
-if /I not "%Q%" == "y" goto requirements
-if /I not "%Q%" == "Y" goto requirements
-if /I "%Q%" == "" goto start 
-if /I "%Q%" == "n" goto start
-if /I "%Q%" == "N" goto start
+if /I "%Q%" == "y" goto requirements
+if /I "%Q%" == "Y" goto requirements
+
+REM If %Q% is not "y" or "Y", go to start
+goto start
 
 :requirements
 cd %SERV_DIR%
