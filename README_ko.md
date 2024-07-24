@@ -3,6 +3,36 @@
 [English](/README_en.md) [Korean](/README_ko.md)
 
 ## 새로운 기능!
+- v2.0.45-alpha
+  - [여기를 참조하십시오](https://github.com/w-okada/voice-changer/tree/v.2)
+  - bugfix
+    - 음량 조절
+- v2.0.44-alpha
+  - [여기를 참조하십시오](https://github.com/w-okada/voice-changer/tree/v.2)
+  - bugfix
+    - 모델 삭제 후 불안정한 동작 개선
+- v2.0.42-alpha
+  - [여기를 참조하십시오](https://github.com/w-okada/voice-changer/tree/v.2)
+  - 기능
+    - Beatrice v2 커스텀 모델 업로드
+  - 개선
+    - RVC 음질 향상
+    - RVC 변환 속도 향상
+  - 버그 수정
+    - 패스스루
+    - 오디오 장치 다시 로드
+- v.2.0.40-alpha
+  - [여기를 참조하십시오](https://github.com/w-okada/voice-changer/tree/v.2)
+  - 개선 사항
+    - 볼륨 지원
+    - ASIO 지원
+    - 웹 폴더 공개
+      - `web_front\assets\i18n\<lang>\translation.json` 파일을 생성하고 `web_front\assets\gui_settings\GUI.json`의 `lang`에 추가하면 언어 지원을 확장할 수 있습니다.
+- v.2.0.32-alpha Colab 버전 출시. ⇒ [여기](./w_okada's_Voice_Changer_version_2_x.ipynb)
+  - ngrok 없이도 사용 가능합니다. ngrok 계정이 없어도 이용할 수 있습니다.
+- v.2.0.27-alpha -> [여기를 참조하십시오](https://github.com/w-okada/voice-changer/tree/v.2)
+- v.2.0.24-alpha Colab 버전 릴리스. ⇒ [여기](https://github.com/w-okada/voice-changer/tree/v.2/w_okada's_Voice_Changer_version_2_x.ipynb)
+
 - VCClient는 version.2로 개발이 진행 중입니다. [여기를 참조하십시오](https://github.com/w-okada/voice-changer/tree/v.2)
   - Mac 버전도 출시했습니다.
   - 
@@ -85,7 +115,7 @@
 
 - 튜토리얼은 [이곳](tutorials/tutorial_rvc_ko_latest.md)을 확인하세요。([네트워크 문제 해결법](https://github.com/w-okada/voice-changer/blob/master/tutorials/trouble_shoot_communication_ko.md))
 
-- [Google Colaboratory](https://github.com/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) で簡単にお試しいただけるようになりました。左上の Open in Colab のボタンから起動できます。
+- [Google Colaboratory](https://github.com/w-okada/voice-changer/tree/v.2/w_okada's_Voice_Changer_version_2_x.ipynb) で簡単にお試しいただけるようになりました。左上の Open in Colab のボタンから起動できます。
 
 <img src="https://github.com/w-okada/voice-changer/assets/48346627/3f092e2d-6834-42f6-bbfd-7d389111604e" width="400" height="150">
 

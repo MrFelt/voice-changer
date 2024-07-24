@@ -3,8 +3,39 @@
 [Japanese](/README_ja.md) [Korean](/README_ko.md)
 
 ## What's New!
+- v2.0.45-alpha
+  - [HERE](https://github.com/w-okada/voice-changer/tree/v.2)
+  - bugfix
+    - volume control
+- v2.0.44-alpha
+  - [HERE](https://github.com/w-okada/voice-changer/tree/v.2)
+  - bugfix
+    - Improvements for Unstable Behavior After Model Deletion
+- v2.0.42-alpha
+  - [HERE](https://github.com/w-okada/voice-changer/tree/v.2)
+  - Feature
+    - Upload of Beatrice v2 custom model
+  - Improvement
+    - Improved RVC sound quality
+    - Enhanced RVC conversion speed
+  - Bugfix
+    - Pass-through
+    - Audio device reload
+- v.2.0.40-alpha
+  - [HERE](https://github.com/w-okada/voice-changer/tree/v.2)
+  - Improvements
+    - Volume support
+    - ASIO support
+    - Web folder publishing
+      - You can extend language support by creating `web_front\assets\i18n\<lang>\translation.json` and adding it to `lang` in `web_front\assets\gui_settings\GUI.json`.
+- v.2.0.32-alpha Colab version released. ⇒ [Here](./w_okada's_Voice_Changer_version_2_x.ipynb)
+  - ngrok is no longer needed. You can use it without a ngrok account.
+- v.2.0.27-alpha -> [HERE](https://github.com/w-okada/voice-changer/tree/v.2)
+- v.2.0.24-alpha Colab version released. ⇒ [Here](https://github.com/w-okada/voice-changer/tree/v.2/w_okada's_Voice_Changer_version_2_x.ipynb)
+
 - VCClient has rebooted as the second version. see [HERE](https://github.com/w-okada/voice-changer/tree/v.2)
   - The Mac(Apple silicon) version has also been released.
+
 - v.1.5.3.18a
   - Bugfix: FCPE
 
@@ -81,7 +112,7 @@ It can be used in two main ways, in order of difficulty:
 
 - Please see [here](tutorials/tutorial_rvc_en_latest.md) for the tutorial. ([trouble shoot](https://github.com/w-okada/voice-changer/blob/master/tutorials/trouble_shoot_communication_ja.md))
 
-- It's now easy to try it out on [Google Colaboratory](https://github.com/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) (requires a ngrok account). You can launch it from the 'Open in Colab' button in the top left corner.
+- It's now easy to try it out on [Google Colaboratory](https://github.com/w-okada/voice-changer/tree/v.2/w_okada's_Voice_Changer_version_2_x.ipynb) (requires a ngrok account). You can launch it from the 'Open in Colab' button in the top left corner.
 
 <img src="https://github.com/w-okada/voice-changer/assets/48346627/3f092e2d-6834-42f6-bbfd-7d389111604e" width="400" height="150">
 

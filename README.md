@@ -3,9 +3,37 @@
 [English](/README_en.md) [Korean](/README_ko.md)
 
 ## What's New!
+- v2.0.45-alpha
+  - [こちらを参照](https://github.com/w-okada/voice-changer/tree/v.2)
+  - bugfix
+    - 音量調整
+- v2.0.44-alpha
+  - [こちらを参照](https://github.com/w-okada/voice-changer/tree/v.2)
+  - bugfix
+    - モデル削除後の不安定動作の改善
+- v.2.0.42-alpha
+  - [こちらを参照](https://github.com/w-okada/voice-changer/tree/v.2)
+  - Feature
+    - Beatrice v2 カスタムモデルのアップロード
+  - Improvement
+    - RVC音質向上
+    - RVC変換速度向上
+  - Bugfix
+    - パススルー
+    - オーディオデバイスリロード
+- v.2.0.40-alpha
+  - [こちらを参照](https://github.com/w-okada/voice-changer/tree/v.2)
+  - 改善
+    - 音量対応
+    - ASIO対応
+    - webフォルダ公開
+      - `web_front\assets\i18n\<lang>\translation.json`を作成し、`web_front\assets\gui_settings\GUI.json`の`lang`に追加すれば言語対応を拡張できます。
+- v.2.0.32-alpha Colab版 リリース。⇒[こちら](https://github.com/w-okada/voice-changer/tree/v.2/w_okada's_Voice_Changer_version_2_x.ipynb)
+  - ngrokフリーになりました。ngrokのアカウントなしで利用可能です。
+- v.2.0.27-alpha -> [こちらを参照](https://github.com/w-okada/voice-changer/tree/v.2)
+
 - VCClientは version.2として開発が進められています.  [こちらを参照](https://github.com/w-okada/voice-changer/tree/v.2)
 　一応Mac版もリリースしました。
-
 
 - v.1.5.3.18a
   - Bugfix: FCPE
@@ -84,7 +112,7 @@
 
 - チュートリアルは[こちら](tutorials/tutorial_rvc_ja_latest.md)をご覧ください。([ネットワークのトラブルシュート](https://github.com/w-okada/voice-changer/blob/master/tutorials/trouble_shoot_communication_ja.md))
 
-- [Google Colaboratory](https://github.com/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) で簡単にお試しいただけるようになりました。左上の Open in Colab のボタンから起動できます。
+- [Google Colaboratory](https://github.com/w-okada/voice-changer/tree/v.2/w_okada's_Voice_Changer_version_2_x.ipynb) で簡単にお試しいただけるようになりました。左上の Open in Colab のボタンから起動できます。
 
 <img src="https://github.com/w-okada/voice-changer/assets/48346627/3f092e2d-6834-42f6-bbfd-7d389111604e" width="400" height="150">
 
